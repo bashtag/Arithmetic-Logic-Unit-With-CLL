@@ -1,0 +1,12 @@
+module alu_1_bit(
+	output result, c_out;
+	input a, b, c, ALUop[2:0];
+);
+	wire is_subtract, b_xor_subtraction;
+
+	mux_8x1_is_subtract(is_subtract, ALUop[2:0]);
+	
+	
+
+
+endmodule

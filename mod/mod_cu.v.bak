@@ -1,0 +1,43 @@
+module mod_cu(
+	input reset,
+	input CLK,
+	input less_than
+);
+
+reg [1:0] curr_state, next_state;
+
+localparam 	BEGIN	= 2'b00,
+				SUB	= 2'b01,
+				END	= 2'b10;
+				
+// state registers
+always @(posedge CLK)
+	begin
+		if (reset)
+			curr_state <= BEGIN;
+		else
+			curr_state <= next_state;
+	end
+	
+// next state
+always @(*)
+	begin
+		case (curr_state)
+			BEGIN:
+				begin
+					next_state = SUB;
+				end
+			SUB:
+				begin
+					if (less_than)
+						next_state = END;
+					else
+						next_state = SUB;
+				end
+			END:
+				begin
+				end
+		endcase
+	end
+
+endmodule

@@ -1,0 +1,12 @@
+module custom_or(
+	output result,
+	input a, b
+);
+	wire not_a, not_b, not_result;
+	
+	not not0(not_a, a);
+	not not1(not_b, b);
+	and and0(not_result, not_a, not_b);
+	not not2(result, not_result);
+
+endmodule

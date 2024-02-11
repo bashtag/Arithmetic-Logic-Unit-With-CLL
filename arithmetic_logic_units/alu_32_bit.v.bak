@@ -1,0 +1,39 @@
+module alu_32_bit(
+	output [31:0] result;
+	input [31:0] a, b;
+	input [2:0] ALUop;
+);
+	wire temp_16_out, overflow, slt, c_in;
+	wire [31:0] temp_result;
+	
+	mux_2x1_is_subtract mux0(
+		.is_subtract(c_in),
+		.ALUop(ALUop)
+	);
+
+	cla_16_bit cla0(
+		.result(temp_result[15:0]),
+		.c_out(temp_16_out),
+		.c_in(c_in),
+		.a(a[15:0]),
+		.b(b[15:0]),
+		.ALUop(ALUop)
+	);
+
+	cla_16_bit_msb cla1(
+		.result(temp_result[31:16]),
+		.overflow(overflow),
+		.slt(slt),
+		.c_in(temp_16_out),
+		.a(a[31:16]),
+		.b(b[31:16]),
+		.ALUop(ALUop)
+	);
+	
+	mux_2x1_slt_result_32_bit mux1(
+		.result(result),
+		.slt(slt),
+		.result(temp_result)
+	);
+
+endmodule

@@ -1,0 +1,30 @@
+module testbench_cla();
+	reg [15:0] a, b;
+	reg c_in;
+	reg [2:0]ALUop;
+	
+	wire [15:0] result;
+	wire c_out
+
+	.cla_16_bit(
+		.result(result);
+		.c_out(c_out);
+		.c_in(c_in);
+		.a(a),
+		.b(b);
+		.ALUop(ALUop);
+	);
+	
+	
+	initial begin
+	#10
+	a = 16'd2331;
+	b = 16'd210;
+	ALUop = 3'b101;
+	c_in = 1'b0;
+	#20
+	$display("%d + %d = %d", a, b, result);
+	
+	end
+
+endmodule

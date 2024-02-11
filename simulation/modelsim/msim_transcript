@@ -1,0 +1,330 @@
+# Reading pref.tcl
+# do ArithmeticLogitUnit_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/custom_gates {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/custom_gates/custom_or.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:43 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/custom_gates" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/custom_gates/custom_or.v 
+# -- Compiling module custom_or
+# 
+# Top level modules:
+# 	custom_or
+# End time: 23:52:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/custom_gates {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/custom_gates/custom_xor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:43 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/custom_gates" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/custom_gates/custom_xor.v 
+# -- Compiling module custom_xor
+# 
+# Top level modules:
+# 	custom_xor
+# End time: 23:52:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/arithmetic_logic_units {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/arithmetic_logic_units/alu_1_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:43 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/arithmetic_logic_units" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/arithmetic_logic_units/alu_1_bit.v 
+# -- Compiling module alu_1_bit
+# 
+# Top level modules:
+# 	alu_1_bit
+# End time: 23:52:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers/mux_2x1_is_subtract.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:43 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers/mux_2x1_is_subtract.v 
+# -- Compiling module mux_2x1_is_subtract
+# 
+# Top level modules:
+# 	mux_2x1_is_subtract
+# End time: 23:52:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead/cll_4_input.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:43 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead/cll_4_input.v 
+# -- Compiling module cll_4_input
+# 
+# Top level modules:
+# 	cll_4_input
+# End time: 23:52:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead/cla_4_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:43 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead/cla_4_bit.v 
+# -- Compiling module cla_4_bit
+# 
+# Top level modules:
+# 	cla_4_bit
+# End time: 23:52:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers/mux_5x1_alu_1_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:43 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers/mux_5x1_alu_1_bit.v 
+# -- Compiling module mux_5x1_alu_1_bit
+# 
+# Top level modules:
+# 	mux_5x1_alu_1_bit
+# End time: 23:52:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead/cla_16_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:43 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead/cla_16_bit.v 
+# -- Compiling module cla_16_bit
+# 
+# Top level modules:
+# 	cla_16_bit
+# End time: 23:52:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers/mux_2x1_b_xor_is_subtract_4_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:43 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers/mux_2x1_b_xor_is_subtract_4_bit.v 
+# -- Compiling module mux_2x1_b_xor_is_subtract_4_bit
+# 
+# Top level modules:
+# 	mux_2x1_b_xor_is_subtract_4_bit
+# End time: 23:52:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead/cla_4_bit_msb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:43 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead/cla_4_bit_msb.v 
+# -- Compiling module cla_4_bit_msb
+# 
+# Top level modules:
+# 	cla_4_bit_msb
+# End time: 23:52:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead/cla_16_bit_msb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:44 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/carry_lookahead/cla_16_bit_msb.v 
+# -- Compiling module cla_16_bit_msb
+# 
+# Top level modules:
+# 	cla_16_bit_msb
+# End time: 23:52:44 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/arithmetic_logic_units {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/arithmetic_logic_units/alu_32_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:44 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/arithmetic_logic_units" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/arithmetic_logic_units/alu_32_bit.v 
+# -- Compiling module alu_32_bit
+# 
+# Top level modules:
+# 	alu_32_bit
+# End time: 23:52:44 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/mod {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/mod/mod_cu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:44 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/mod" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/mod/mod_cu.v 
+# -- Compiling module mod_cu
+# 
+# Top level modules:
+# 	mod_cu
+# End time: 23:52:44 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/mod {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/mod/mod_dp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:44 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/mod" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/mod/mod_dp.v 
+# -- Compiling module mod_dp
+# 
+# Top level modules:
+# 	mod_dp
+# End time: 23:52:44 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/mod {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/mod/mod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:44 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/mod" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/mod/mod.v 
+# -- Compiling module mod
+# 
+# Top level modules:
+# 	mod
+# End time: 23:52:44 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers/mux_3x1_results.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:44 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/multiplexers/mux_3x1_results.v 
+# -- Compiling module mux_3x1_results
+# 
+# Top level modules:
+# 	mux_3x1_results
+# End time: 23:52:44 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project2/testbenches {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/testbenches/testbench_alu_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:44 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/testbenches" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/testbenches/testbench_alu_32.v 
+# -- Compiling module testbench_alu_32
+# 
+# Top level modules:
+# 	testbench_alu_32
+# End time: 23:52:44 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench_alu_32
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench_alu_32 
+# Start time: 23:52:44 on Dec 10,2023
+# Loading work.testbench_alu_32
+# Loading work.alu_32_bit
+# Loading work.mux_2x1_is_subtract
+# Loading work.cla_16_bit
+# Loading work.cla_4_bit
+# Loading work.mux_2x1_b_xor_is_subtract_4_bit
+# Loading work.custom_xor
+# Loading work.cll_4_input
+# Loading work.alu_1_bit
+# Loading work.custom_or
+# Loading work.mux_5x1_alu_1_bit
+# Loading work.cla_16_bit_msb
+# Loading work.cla_4_bit_msb
+# Loading work.mod
+# Loading work.mod_cu
+# Loading work.mod_dp
+# Loading work.mux_3x1_results
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# OPCODE: 000
+# A: 10101010101010101010101010101010
+# B: 01010101010101010101010101010101
+# Result: 00000000000000000000000000000000
+#  decimal_a= -1431655766, decimal_b =  1431655765, result_d =           0
+# 
+# 
+# OPCODE: 000
+# A: 00000000000000001111111111111111
+# B: 11111111111111110000000000000000
+# Result: 00000000000000000000000000000000
+#  decimal_a=       65535, decimal_b =      -65536, result_d =           0
+# 
+# 
+# OPCODE: 001
+# A: 10101010101010101010101010101010
+# B: 01010101010101010101010101010101
+# Result: 11111111111111111111111111111111
+#  decimal_a= -1431655766, decimal_b =  1431655765, result_d =          -1
+# 
+# 
+# OPCODE: 001
+# A: 00000000000000001111111111111111
+# B: 11111111111111110000000000000000
+# Result: 11111111111111111111111111111111
+#  decimal_a=       65535, decimal_b =      -65536, result_d =          -1
+# 
+# 
+# OPCODE: 010
+# A: 10101010101010101010101010101010
+# B: 01010101010101010101010101010101
+# Result: 11111111111111111111111111111111
+#  decimal_a= -1431655766, decimal_b =  1431655765, result_d =          -1
+# 
+# 
+# OPCODE: 010
+# A: 11111111111111111111111111111111
+# B: 11111111111111110000000000000000
+# Result: 00000000000000001111111111111111
+#  decimal_a=          -1, decimal_b =      -65536, result_d =       65535
+# 
+# 
+# OPCODE: 011
+# A: 10101010101010101010101010101010
+# B: 01010101010101010101010101010101
+# Result: 00000000000000000000000000000000
+#  decimal_a= -1431655766, decimal_b =  1431655765, result_d =           0
+# 
+# 
+# OPCODE: 011
+# A: 11111111111111110000000000000000
+# B: 11111111111111110000000000000000
+# Result: 00000000000000001111111111111111
+#  decimal_a=      -65536, decimal_b =      -65536, result_d =       65535
+# 
+# 
+# OPCODE: 100
+# A: 10101010101010101010101010101010
+# B: 01010101010101010101010101010101
+# Result: 00000000000000000000000000000001
+#  decimal_a= -1431655766, decimal_b =  1431655765, result_d =           1
+# 
+# 
+# OPCODE: 100
+# A: 00000000000000001111111111111111
+# B: 00000000000000000000000000001111
+# Result: 00000000000000000000000000000000
+#  decimal_a=       65535, decimal_b =          15, result_d =           0
+# 
+# 
+# OPCODE: 101
+# A: 10101010101010101010101010101010
+# B: 01010101010101010101010101010101
+# Result: 11111111111111111111111111111111
+#  decimal_a= -1431655766, decimal_b =  1431655765, result_d =          -1
+# 
+# 
+# OPCODE: 101
+# A: 00000000000000001111111111111111
+# B: 11111111111111110000000000000000
+# Result: 11111111111111111111111111111111
+#  decimal_a=       65535, decimal_b =      -65536, result_d =          -1
+# 
+# 
+# OPCODE: 110
+# A: 10101010101010101010101010101010
+# B: 01010101010101010101010101010101
+# Result: 01010101010101010101010101010101
+#  decimal_a= -1431655766, decimal_b =  1431655765, result_d =  1431655765
+# 
+# 
+# OPCODE: 110
+# A: 00000000000000001111111111111111
+# B: 11111111111111110000000000000000
+# Result: 00000000000000011111111111111111
+#  decimal_a=       65535, decimal_b =      -65536, result_d =      131071
+# 
+# 
+# OPCODE: 111
+# A: 00000000000000000000000000100000
+# B: 00000000000000000000000000001001
+# Result: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#  decimal_a=          32, decimal_b =           9, result_d =           x
+# 
+# 
+# OPCODE: 111
+# A: 00000000000000000000000000100000
+# B: 00000000000000000000000000001001
+# Result: 00000000000000000000000000000101
+#  decimal_a=          32, decimal_b =           9, result_d =           5
+# 
+# 
+#          32 mod           9 =           5
+# ** Note: $finish    : C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/testbenches/testbench_alu_32.v(70)
+#    Time: 2500 ns  Iteration: 0  Instance: /testbench_alu_32
+# 1
+# Break in Module testbench_alu_32 at C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project2/testbenches/testbench_alu_32.v line 70
+# End time: 23:52:56 on Dec 10,2023, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0

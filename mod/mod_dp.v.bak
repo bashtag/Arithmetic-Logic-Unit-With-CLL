@@ -1,0 +1,43 @@
+module mod_dp(
+	input CLK,
+	input select,
+	input write_enable,
+	input result_enable,
+	input [31:0] a, b,
+	output less_than,
+	output [31:0] result
+);
+
+	reg [31:0] temp;
+	wire [31:0] a_or_tempsubt;
+	wire [31:0] alu_res;
+	wire [31:0] slt_32;
+
+	always @(posedge CLK)
+		begin
+			if (write_enable)
+				temp <= a_or_tempsubt;
+			if (result_enable)
+				result <= temp;
+		end
+		
+	assign a_or_tempsubt = select ? alu_res : a;
+
+	alu_32_bit alu0(
+		.result(alu_res),
+		.a(a),
+		.b(b),
+		.ALUop(3b'110)
+	);
+
+	alu_32_bit alu0(
+		.result(slt_32),
+		.a(a),
+		.b(b),
+		.ALUop(3b'100)
+	);
+	
+	buf buf0(less_than, slt_32[0]);
+
+
+endmodule

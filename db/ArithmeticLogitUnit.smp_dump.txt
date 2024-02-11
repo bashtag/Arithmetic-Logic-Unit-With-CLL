@@ -1,0 +1,7 @@
+
+State Machine - |alu_32_bit|mod:mod0|mod_cu:control_unit|curr_state
+Name curr_state.END curr_state.RES curr_state.SUB curr_state.BEGIN 
+curr_state.BEGIN 0 0 0 0 
+curr_state.SUB 0 0 1 1 
+curr_state.RES 0 1 0 1 
+curr_state.END 1 0 0 1 
